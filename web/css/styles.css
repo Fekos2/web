@@ -16,7 +16,7 @@ body:before {
     position: absolute;
 
     background: rgb(0, 60, 190);
-    opacity: 0.7;
+    opacity: 0.57;
 
     z-index: -1;
 }
@@ -41,7 +41,7 @@ ul {
 }
 
 .menu__nav li a {
-    color: rgb(27, 245, 27);
+    color: rgb(22, 228, 22);
     text-decoration: none;
     font-size: 24px;
 }
@@ -59,8 +59,8 @@ ul {
 
 .menu__icons li {
     float:left;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -70,7 +70,7 @@ ul {
     color: yellow;
     background-color: #4CAF50;
     margin-left: 33%;
-    display: flex;
+    display: center;
     font-size: 64px;
 }
 
@@ -93,8 +93,13 @@ div {
     width: 50%;
     margin:auto;
     margin-top:20%;
+    background-color: #4CAF50;
 }
 
+ul.foo {
+    margin-left: 10px;    
+    flex-wrap: nowrap;
+}
 
-
-
+ul.foo button{
+}
