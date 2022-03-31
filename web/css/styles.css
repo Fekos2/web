@@ -28,7 +28,6 @@ ul {
 /* menu__nav*/
 .menu__nav {
     margin-left: 10%;
-
 }
 
 .menu__nav li {
@@ -141,4 +140,44 @@ article img {
     position:fixed;
     right:5%;
 }
+
+.informacion{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+.informacion .foto{
+    margin-top: 40px;
+}
 /**/ 
+
+p.reciclaje{
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+.images li{
+    display: flex;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.images li img{
+    height: 200px;
+    width: 300px;
+}
+
+.images li p{
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 24px;
+    color: white;
+}
+
+.acceder{
+    color: white;
+}
