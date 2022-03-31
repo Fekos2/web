@@ -96,10 +96,49 @@ div {
     background-color: #4CAF50;
 }
 
-ul.foo {
-    margin-left: 10px;    
-    flex-wrap: nowrap;
+ul.foo{
+    display: flex; 
+    align-items: normal;
 }
 
-ul.foo button{
+ul.foo li button{
+    width: 400px;
+    margin-left: 5%;
 }
+/* porquere*/
+article {
+    margin-right: 10%;
+    background-color: none;
+    position:fixed;
+    right:0;
+    bottom:1;
+    width:80%;
+    height: 400px;
+    display:flex;
+    float: left;
+    flex-wrap: nowrap;
+}
+article p {
+    margin-top: 2%;
+    color: white;
+    font-size: 24pt;
+}
+
+article img {
+    margin-right: 5%;
+    height: 400px;
+    width: 30%;
+}
+
+.articulo2{
+    height: 370px;
+    margin-top: 25%;
+    color: white;
+    font-size: 24pt;
+}
+
+.articulo2 img{
+    position:fixed;
+    right:5%;
+}
+/**/ 
