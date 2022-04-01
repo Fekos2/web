@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+
+    background-image: url("imagenes/playa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body:before {
+    content: "";
+    height: 50px;
+    width: 100%;
+    min-height: 100vh;/*view port height*/
+    position: absolute;
+
+    background: rgb(0, 60, 190);
+    opacity: 0.57;
+
+    z-index: -1;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* menu__nav*/
+.menu__nav {
+    margin-left: 10%;
+}
+
+.menu__nav li {
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+.menu__nav li a {
+    color: rgb(22, 228, 22);
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.menu__nav li img{
+    width: 50px;
+
+}
+/**/
+
+/*menu_iconos*/
+.menu__icons li img {
+    width:24px;
+}
+
+.menu__icons li {
+    float:left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/**/
+
+.buttons {
+    color: white;
+    background-color: rgb(22, 228, 22);
+    margin-left: 33%;
+    display: center;
+    font-size: 64px;
+}
+
+.menu {
+    width: 100vw;/*view port width*/
+    display: flex;
+}
+
+h1 {
+    font-size: 64px;
+    text-align: center;
+    color: white;
+}
+h2 {
+    font-size: 64px;
+    text-align: center;
+    color: white;
+}
+
+div {
+    width: 50%;
+    margin:auto;
+    margin-top:20%;
+}
+
+ul.foo{
+    margin-bottom: 20px;
+    display: flex; 
+}
+
+ul.foo li button{
+    width: 400px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+/* porquere*/
+article {
+    margin-right: 10%;
+    background-color: none;
+    position:fixed;
+    right:0;
+    bottom:1;
+    width:80%;
+    height: 400px;
+    display:flex;
+    float: left;
+    flex-wrap: nowrap;
+}
+article p {
+    margin-top: 2%;
+    color: white;
+    font-size: 24pt;
+}
+
+article img {
+    margin-right: 5%;
+    height: 400px;
+    width: 30%;
+}
+
+.articulo2{
+    height: 370px;
+    margin-top: 25%;
+    color: white;
+    font-size: 24pt;
+}
+
+.articulo2 img{
+    position:fixed;
+    right:5%;
+}
+
+.informacion{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+.informacion .foto{
+    margin-top: 40px;
+}
+/**/ 
+
+p.reciclaje{
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+.images li{
+    display: flex;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.images li img{
+    height: 200px;
+    width: 300px;
+}
+
+.images li p{
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 24px;
+    color: white;
+}
+
+.acceder{
+    margin-top: 15%;
+    text-align: center;
+    color: white;
+}
+
+.acceder li{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
